@@ -331,7 +331,12 @@ body {
     width: 2.5rem;
     z-index: 2;
     justify-self: end;
-    margin: 1rem; }
+    margin: 1rem;
+    transition: all .2s;
+    cursor: pointer; }
+    .home__like:hover {
+      fill: #ffa76d;
+      transform: scale(1.1); }
   .home__name {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
@@ -459,3 +464,11 @@ body {
   color: #aaa;
   margin-top: 6rem;
   text-align: center; }
+  .copyright a {
+    display: inline-block;
+    text-decoration: underline;
+    color: #fff;
+    transition: all .2s; }
+    .copyright a:hover {
+      transform: scale(1.03);
+      color: #aaa; }
